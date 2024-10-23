@@ -1,0 +1,1207 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Conv_MyriadPro-Regular', Arial, sans-serif;
+    background: #cbd0d3 url(../images/bg.jpg)  center 277px repeat;
+}
+#main{
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+}
+.clearWork-area{
+    height: 96px;
+}
+body > footer{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: -99px auto 0 auto;
+    height: 99px;
+    clear: both;
+    background: transparent url(../images/footer-bg.png) center top repeat-x;
+
+
+}
+.in_body{
+    width: 1080px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+
+
+b, strong{
+    font-weight: bold;
+}
+i{
+    font-style: italic;
+}
+a{
+    outline: none;
+}
+
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.g-left{
+    display: block;
+    float: left;
+}
+.g-right{
+    display: block;
+    float: right;
+}
+.g-clr{
+    display: block;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.g-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.g-hide{
+    display: none;
+}
+
+#main > header{
+}
+#main > header .header-in{
+    background: #204e8f url(../images/bgh.jpg) center top repeat-x;
+    height: 188px;
+
+}
+#main > header .logo-wrap{
+    width: 302px;
+    height: 166px;
+    padding: 13px 0 0 0px;
+}
+#main > header .logo-wrap .logo{
+    display: block;
+    width: 900px;
+    height: 166px;
+    background: transparent url(../images/all.png) -29px -24px no-repeat;
+    overflow: hidden;
+
+
+}
+#main > header .description-wrap{
+    width: 588px;
+    padding: 13px 0 0 0px;
+    margin: 0 0 0 -62px;
+    color: #d1d3d4;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #ffffff,0px 1px 2px #000000;
+    text-align: right;
+    font-family: 'Conv_MyriadPro-Bold';
+}
+#main > header .description-wrap .description{
+    width: 598px;
+    height: 38px;
+}
+#main > header .description-wrap .phones{
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Conv_MyriadPro-Regular';
+    font-weight: normal;
+    line-height: 1em;
+    letter-spacing: 0.15em;
+}
+#main > header .cart-wrap{
+    width: 221px;
+    padding: 20px 0 0 27px;
+
+
+}
+.button1{
+    display: block;
+    width: 222px;
+    height: 74px;
+    background: transparent url(../images/button-login.png) 0 0 no-repeat;
+    color: #331600;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 62px;
+    text-align: center;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-transform: uppercase;
+}
+#main > header .cart-wrap .loginDescription{
+    color: #d1d3d4;
+    text-shadow: 0px 1px 1px #ffffff,0px 1px 2px #000000;
+    font-family: 'Conv_MyriadPro-Bold';
+    font-size: 17px;
+    text-align: center;
+    margin: -10px 0 0 0;
+    height: 1em;
+}
+#main > header .search-wrap{
+
+}
+#main > header .search-wrap .search{
+    margin: 15px 0 0 0;
+    position: relative;
+}
+#main > header .search-wrap .search input[type="text"]{
+    display: block;
+    background: transparent url(../images/search.png) 0 0 no-repeat;
+    width: 214px;
+    height: 17px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    line-height: 17px;
+    font-family: 'Conv_MyriadPro-Bold';
+    color: #000000;
+    padding: 14px  45px 9px  13px;
+}
+.product_popup .prop .prop_val,
+#reg_form section.inputs input[type="password"],
+#reg_form section.inputs input[type="text"],
+#login_form section input[type="password"],
+#login_form section input[type="text"],
+#main > header .cart-wrap .cart-inhead{
+    display: block;
+    position: relative;
+    background: transparent url(../images/cart.png) 0 0 no-repeat;
+    height: 17px;
+    width: 163px;
+    padding: 14px  45px 9px  13px;
+    margin: 30px 0 0 0;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    line-height: 17px;
+    font-family: 'Conv_MyriadPro-Bold';
+    color: #262523;
+    text-decoration: none;
+}
+#main > header .cart-wrap .cart-inhead .cart_icon{
+    display: block;
+    position: absolute;
+    background: transparent url(../images/cart-b.png) 0 0 no-repeat;
+    width: 43px;
+    height: 45px;
+    top: -2px;
+    right: 0;
+}
+#main > header .search-wrap .search input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+    color: #262523;
+}
+#main > header .search-wrap .search input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #262523;
+}
+#main > header .search-wrap .search input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #262523;
+}
+#main > header .search-wrap .search input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #262523;
+}
+#main > header .search-wrap .search input[type="image"]{
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+#main > header nav{
+    position: relative;
+    margin: -10px 0 0 0;
+    background: transparent url(../images/menu-top.png) center top repeat-x;
+    height: 110px;
+    z-index: 20;
+}
+#main > header nav.sub{
+    top: -21px;
+    margin: -0px 0 0 0;
+    background: none;
+    z-index: 10;
+    height: 1px;
+}
+#main > header nav.sub .in_body{
+    position: relative;
+}
+#main > header nav ul{
+    display: block;
+    padding: 20px 0 0 0;
+}
+#main > header nav.sub ul{
+    position: absolute;
+    padding: 0;
+    top: 0px;
+
+}
+#main > header nav ul li{
+    display: block;
+    position: relative;
+    float: left;
+    width: 213px;
+    height: 75px;
+
+    text-align: center;
+
+}
+#main > header nav.sub ul li{
+
+
+}
+#main > header nav ul li.item1{
+    width: 215px;
+}
+#main > header nav ul li.item1 a{
+    background-position: -215px 0;
+    width: 215px;
+    height: 75px;
+}
+#main > header nav ul li.item2{
+
+    width: 215px;
+}
+#main > header nav ul li.item2 a{
+    background-position: -430px 0;
+    width: 215px;
+}
+#main > header nav.sub ul li.item2 a{
+    background-position: -430px 0;
+    width: 212px;
+}
+#main > header nav ul li.item3{
+
+    width: 215px;
+}
+#main > header nav ul li.item3 a{
+    background-position: -645px 0;
+    width: 215px;
+}
+#main > header nav ul li.item4{
+    width: 222px;
+}
+#main > header nav ul li.item4 a{
+    background-position: -860px 0;
+    width: 222px;
+}
+#main > header nav ul li a{
+    display: block;
+    position: relative;
+    z-index: 4;
+    text-decoration: none;
+    background: transparent url(../images/menu-b.png) -2px 0 no-repeat;
+    width: 213px;
+    height: 75px;
+}
+#main > header nav.sub ul li a{
+    z-index: 3;
+}
+#main > header nav.sub ul li a{
+    background: transparent url(../images/menu-b-sub.png) -2px 0 no-repeat;
+}
+#main > header nav ul li a span.link{
+    display: block;
+    text-decoration: none;
+    color: #331700;
+    font-family: 'Conv_MyriadPro-Bold';
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 62px;
+
+}
+#main > header nav ul li.active a span.link,
+#main > header nav ul li a:hover span.link{
+    color: transparent;
+    text-shadow: 0px 0px 1px rgba(255,255,255,1),0px 0px 3px rgba(0,0,0,1);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+#main > header nav ul li.g-clr{
+    width: 0;
+    height: 0;
+    background: none;
+    font-size: 0;
+    line-height: 0;
+}
+#main > header nav ul li .ins-wrap{
+    display: none;
+    position: absolute;
+    top: 75px;
+    z-index: 3;
+    width: auto;
+}
+#main > header nav.sub ul li .ins-wrap{
+    display: none;
+    z-index: 1;
+    width: auto;
+}
+#main > header nav ul li:hover .ins-wrap{
+    display: block;
+}
+#main > header nav ul li ul.ins{
+    position: absolute;
+    top:  -20px;
+    left: 0;
+    margin: 0 0 0 0;
+    padding: 0px 50px 0px 27px;
+    background: transparent url(../images/menu-i-bg.png) -1px -45px no-repeat;
+
+    width: 184px;
+}
+#main > header nav.sub ul li ul.ins{
+
+    background-position: -52px -45px;
+    width: 133px;
+}
+#main > header nav ul li ul.ins{
+    -webkit-box-shadow: 1px 2px 3px 0px #181819;
+    -moz-box-shadow: 1px 2px 3px 0px #181819;
+    box-shadow: 1px 2px 3px 0px #181819;
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(color='#181819', Direction=90, Strength=2);*/
+}
+#main > header nav ul li ul.ins li{
+    display: block;
+    background: none;
+    height: auto;
+    text-align: left;
+    float: none;
+    padding: 4px 0;
+    width: auto;
+    position: relative;
+
+
+}
+#main > header nav ul li ul.ins li.first{
+    padding-top: 15px;
+}
+#main > header nav ul li ul.ins li.last{
+    padding-bottom: 15px;
+}
+#main > header nav ul li ul.ins li.active{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#main > header nav ul li ul.ins li.active.first{
+    padding-top: 20px;
+}
+#main > header nav ul li ul.ins li.last.active{
+    padding-bottom: 15px;
+}
+
+#main > header nav ul li ul.ins li a{
+    position: relative;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #cdcfd0;
+    letter-spacing: 0.05em;
+    background: none;
+    font-family: 'Conv_MyriadPro-Bold';
+    width: auto;
+    height: auto;
+
+}
+#main > header nav ul li ul.ins li a  > span{
+    text-transform: none;
+}
+#main > header nav ul li ul.ins li.active .split.down{
+    position: absolute;
+    left: -27px;
+    bottom: 0;
+    background: transparent url(../images/split.png) 0 bottom no-repeat;
+    width: 262px;
+    height: 20px;
+}
+#main > header nav.sub ul li ul.ins li.active .split.down{
+    width: 210px;
+    background: transparent url(../images/split-sub.png) 2px bottom no-repeat;
+    bottom: 5px;
+}
+#main > header nav.sub ul li ul.ins li.active.first .split.down{
+    bottom: 11px;
+
+}
+#main > header nav ul li ul.ins li.last.active .split.down{
+    background: none;
+
+}
+#main > header nav ul li ul.ins li.active .split.up{
+    position: absolute;
+    top: 0;
+    left:-27px;
+    background: transparent url(../images/menu-i-bg.png) -1px 0 no-repeat;
+    width: 274px;
+    height: 50px;
+}
+#main > header nav.sub ul li ul.ins li.active .split.up{
+    width: 222px;
+    background-position: -52px 0;
+}
+#main > header nav ul li .ins-wrap .mshadow{
+    width: 262px;
+    left: 0;
+    bottom: -14px;
+    position: absolute;
+    background: transparent url(../images/mshadow.png) 0 bottom no-repeat;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+
+}
+#main > header nav.sub ul li .ins-wrap .mshadow{
+    background-position: -35px bottom;
+    width: 211px;
+}
+#content .content-bar{
+    width: 837px;
+}
+#content .content-bar.content-bar-catalog{
+    padding: 80px 0 0 0;
+}
+#content .sidebar{
+    width: 234px;
+}
+#content .sidebar.sidebar-main{
+    width: 221px;
+}
+#main .other-items-wrap,
+#main .about-main-wrap{
+    width: 100%;
+    background: #204e8f url(../images/bgj.jpg) center top repeat-x;
+    color: #d5d7d8;
+    font-size: 20px;
+    font-family: 'Conv_MyriadPro-Regular';
+    line-height: 1.1em;
+    text-shadow:  1px 1px 2px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=2);
+    letter-spacing: 1px;
+}
+#main .other-items-wrap{
+    background: #204e8f url(../images/bgj2.jpg) center top repeat-x;
+}
+#main .about-main-wrap .in_body{
+    height: 423px;
+    position: relative;
+}
+#main .about-main-wrap p{
+    margin: 1em 30px 1em 30px;
+    text-align: justify;
+}
+#main .about-header-main-wrap{
+    width: 100%;
+    background: transparent url(../images/title-line.png) center -4px repeat-x;
+}
+#main .about-header-main-wrap .in_body{
+    height: 80px;
+}
+#main .about-header-main-wrap .about-header-main{
+    line-height: 73px;
+    font-size: 25px;
+    color: #d1d3d4;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-shadow: none;
+    filter: Shadow();
+    margin: 0 0 0 26px;
+}
+.main-news,
+.main-actions{
+    position: relative;
+    padding: 46px 0 0 0;
+}
+.main-news .header,
+.main-actions .header{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.main-news .item,
+.main-actions .item{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 10px 0 0 0;
+}
+.main-news .item .more,
+.main-actions .item .more{
+    display: block;
+    text-align: right;
+    font-family: 'Conv_MyriadPro-It';
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+}
+.main-news .item .text,
+.main-actions .item .text{
+    display: block;
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+}
+.main-news .item img,
+.main-actions .item img{
+    display: block;
+}
+.main-news .item a,
+.main-actions .item a{
+    display: block;
+    width: 220px;
+    height: 160px;
+
+}
+.main-news .item .shadow,
+.main-actions .item .shadow{
+    display: block;
+    background: transparent url(../images/shadow-s.png) center top no-repeat;
+    height: 14px;
+}
+.main-news .header{
+    text-shadow: none;
+    filter: Shadow();
+}
+#main .about-main-wrap .socials{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 82px;
+}
+#main .about-main-wrap .socials a{
+    display: block;
+    width: 62px;
+    height: 73px;
+    margin: 0 16px 0 0;
+    float: left;
+    background: transparent url(../images/socials.png) 0 0 no-repeat;
+}
+#main .about-main-wrap .socials a.od{
+    background-position: -80px 0;
+}
+#main .about-main-wrap .socials a.fb{
+    margin: 0;
+    background-position: -160px 0;
+}
+#login_form{
+    width: 631px;
+    /*height: 517px;*/
+    background: transparent url(../images/bgj.jpg) 0 0 repeat;
+}
+#login_form header.auth{
+    background: transparent url('../images/menu-top.png') center top repeat-x;
+    height: 110px;
+    margin: -2px 0 0 0;
+}
+#login_form .button1{
+    margin: 19px 14px 0 10px;
+}
+#login_form header.auth .g-right{
+    width: 385px;
+    color: #d5d7d8;
+    padding: 13px 0 0 0;
+    font-size: 17px;
+}
+#login_form header.auth .g-right p{
+    line-height: 1em;
+    margin: 0.5em 0;
+}
+#login_form section.inputs{
+    padding: 20px 0 0 0;
+}
+#login_form section.inputs .g-left{
+    display: block;
+    width: 230px;
+    text-align: right;
+}
+#login_form section.inputs .g-right{
+    width: 394px;
+}
+#login_form section.inputs .button1{
+    font-size: 20px;
+    line-height: 68px;
+    margin-left: 0;
+    margin-top: 4px;
+
+}
+#login_form section.inputs input[type="password"],
+#login_form section.inputs input[type="text"]{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#login_form .input-line{
+    height: 48px;
+}
+#login_form .input-line label{
+    line-height: 48px;
+    color: #d5d7d8;
+    font-size: 17px;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+}
+#login_form section.inputs input[type="checkbox"]{
+    display: none;
+}
+#login_form section.inputs .checkbox-wrap{
+    margin: 12px 0;
+}
+#login_form section.inputs .checkbox-wrap .checkbox-element{
+    display: block;
+    background: transparent url(../images/checkbox.png) 0 0 no-repeat;
+    width: 25px;
+    height: 24px;
+}
+#login_form section.inputs .checkbox-wrap .checkbox-element.checked{
+    background-position: 0 -24px;
+}
+#login_form header.register{
+    background: transparent url('../images/title-line.png') center 0px repeat-x;
+    margin: 8px 0 0 0;
+    height: 80px;
+    line-height: 76px;
+    font-size: 25px;
+    color: #d1d3d4;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-transform: uppercase;
+    padding: 0 0 0 26px;
+}
+#login_form section.reg-text{
+    padding: 10px 0 17px 0;
+
+}
+#login_form section.reg-text p{
+    margin: 0 0 0 26px;
+    color: #d5d7d8;
+    font-size: 17px;
+    line-height: 1.5em;
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+}
+#login_form section.reg-text a{
+    color: #fecc06;
+}
+#reg_form{
+    width: 631px;
+    height: 1027px;
+    background: transparent url(../images/popup-bg-reg.png) -1px 97px no-repeat;
+}
+#reg_form header.reg{
+    background: transparent url('../images/menu-top.png') center top repeat-x;
+    height: 110px;
+    margin: -2px 0 0 0;
+}
+#reg_form .button1{
+    margin: 19px 14px 0 10px;
+}
+#reg_form header.reg .g-right{
+    width: 385px;
+    color: #d5d7d8;
+    padding: 20px 0 0 0;
+    font-size: 17px;
+}
+#reg_form header.reg .g-right p{
+    line-height: 1em;
+    margin: 0.5em 0;
+}
+#reg_form section.inputs{
+    padding: 20px 0 0 0;
+}
+#reg_form section.inputs .g-left{
+    display: block;
+    width: 230px;
+    text-align: right;
+}
+#reg_form section.inputs .g-right{
+    width: 394px;
+}
+#reg_form section.inputs .button1{
+    font-size: 20px;
+    line-height: 68px;
+    margin-left: 0;
+    margin-top: 4px;
+
+}
+#reg_form section.inputs input[type="password"],
+#reg_form section.inputs input[type="text"]{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#reg_form .input-line{
+    height: 48px;
+}
+#reg_form .input-line label{
+    display: block;
+    line-height: 48px;
+    color: #d5d7d8;
+    font-size: 17px;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+}
+#reg_form .input-line label.fmini{
+    letter-spacing: -1px;
+}
+#reg_form header.captcha-header{
+    background: transparent url('../images/title-line.png') center 0px repeat-x;
+    margin: 16px 0 0 0;
+    height: 80px;
+    line-height: 76px;
+    font-size: 25px;
+    color: #d1d3d4;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-transform: uppercase;
+    padding: 0 0 0 26px;
+}
+#reg_form section.inputs .button1{
+    font-size: 20px;
+    line-height: 68px;
+    margin-left: 0;
+    margin-top: 16px;
+}
+#reg_form .input-line.whith-button{
+    height: 90px;
+}
+#reg_form .input-line .info-text{
+
+}
+.sidebar .brands-slider-wrap{
+    position: relative;
+
+    width: 234px;
+      height: 1160px;
+    margin: -11px 0 0 0;
+
+}
+.sidebar .brand-slider-bg{
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: 222px;
+    height: 1160px;
+    background: transparent url(../images/brands-bg.png) right 0 no-repeat;
+}
+.sidebar .brand-slider-subwrap{
+    overflow: hidden;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 234px;
+    height: 995px;
+}
+.sidebar ul.brands-slider{
+    display: block;
+    position: relative;
+    top: 0;
+    padding: 5px 0 0px 13px;
+
+
+}
+.sidebar ul.brands-slider li{
+    display: block;
+    position: relative;
+}
+.sidebar ul.brands-slider li .split.down{
+    display: block;
+    background: transparent url(../images/split-sub.png) center bottom no-repeat;
+
+    height: 10px;
+}
+.sidebar ul.brands-slider li.last .split.down{
+    background: none;
+}
+.sidebar ul.brands-slider li a{
+    display: block;
+    position: relative;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #cdcfd0;
+    letter-spacing: 0.05em;
+    background: none;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-decoration: none;
+    padding: 0 0 2px 22px
+}
+.sidebar ul.brands-slider li.active a{
+    font-size: 30px;
+    padding: 4px 0 4px 22px
+}
+.sidebar ul.brands-slider li.active .split.up{
+    width: 20px;
+    height: 50px;
+    top: -6px;
+    left: -13px;
+
+    position: absolute;
+    background: transparent url(../images/brands-bg.png) 0 -139px no-repeat;
+}
+.sidebar .brands-slider-wrap .toup{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 95px;
+
+    width: 58px;
+    height: 58px;
+    background: transparent url(../images/nav-buttons.png) -81px -180px no-repeat;
+}
+.sidebar .brands-slider-wrap .todown{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 95px;
+    width: 58px;
+    height: 58px;
+    background: transparent url(../images/nav-buttons.png) -81px -243px no-repeat;
+}
+
+.sidebar .brands-slider-wrap .toup:hover{
+    background-position: 0px -180px
+}
+.sidebar .brands-slider-wrap .todown:hover{
+    background: transparent url(../images/nav-buttons.png) 0px -243px no-repeat;
+}
+.catalogItems .item{
+    display: block;
+    position: relative;
+    width: 252px;
+    height: 505px;
+    margin: 0  0 0 27px;
+    text-decoration: none;
+}
+.catalogItems .item .img{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 252px;
+    height: 379px;
+
+}
+.catalogItems .item .img img{
+    display: block;
+    position: absolute;
+    width: 250px;
+/*    height: 375px;*/
+    top: 1px;
+    left: 0px;
+    border: 1px solid #b8b9ba;
+}
+.catalogItems .item .img .shadow{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    top: 2px;
+    left: 1px;
+    background-color: transparent;
+    box-shadow: inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -webkit-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -moz-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+
+}
+.catalogItems .item .articule{
+    display: block;
+    position: absolute;
+    width: 237px;
+    height: 79px;
+    font-size: 25px;
+    line-height: 1em;
+    font-family: 'Conv_MyriadPro-Bold';
+    color: #cdcfd0;
+    background: transparent url(../images/articule-bg.png) -2px 0 no-repeat;
+    top: 338px;
+    left: 0px;
+    padding: 50px 0 0 14px;
+}
+.catalogItems .item .articule .value{
+    display: block;
+    font-size: 20px;
+    line-height: 1em;
+    font-family: 'Conv_MyriadPro-Bold';
+    color: #cdcfd0;
+    overflow: hidden;
+    height: 20px;
+}
+.catalogItems .item .price{
+    display: block;
+    position: absolute;
+    top: 444px;
+    left: 0px;
+    background: transparent url(../images/rub-bg.png) 186px -11px no-repeat;
+    width: 174px;
+    height: 60px;
+    color: #000000;
+    font-family: 'Conv_MyriadPro-Bold';
+    font-size: 30px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 78px 0 0;
+
+}
+.catalogItems .item .price.oldPrice{
+    text-align: left;
+    font-size: 25px;
+    color: #444444;
+    background: none;
+    top: 434px;
+}
+.catalogItems .item .price.priceRaspr{
+    padding-top: 10px;
+}
+.catalogItems .item .price.not_available{
+    background: none;
+    text-align: center;
+    font-size: 20px;
+    color: #444444;
+    padding: 0;
+    width: 252px;
+}
+.catalogItems .item .recomend{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.catalogItems .item .imgSale{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.catalogItems .item .recomend img,
+.catalogItems .item .imgSale img{
+    width: auto;
+    height: auto;
+    border: none;
+}
+.sliderMore ul.slides li{
+    margin-right: 15px;
+    position: relative;
+    width: 160px;
+    height: 240px;
+}
+.sliderMore ul.slides li .shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 240px;
+    background-color: transparent;
+     box-shadow: inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -webkit-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -moz-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+}
+.product_popup{
+    position: relative;
+    background: #cbd0d3 url(../images/bgj.jpg) center 0 repeat;
+    width: 832px;
+    padding: 27px 26px;
+    color: #d5d7d8;
+    font-size: 17px;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-shadow:  1px 1px 4px  #181819;
+    filter: Shadow(Color=#181819, Direction=45, Strength=4);
+
+}
+.product_popup .g-left.image{
+    width: 430px;
+}
+.product_popup .g-right.info{
+    width: 402px;
+}
+.product_popup table.prop td{
+    padding: 0 13px 0 0;
+    width: 177px;
+    text-align: right;
+    vertical-align: middle;
+}
+.product_popup table.prop td.value{
+    width: 212px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+.fancybox-wrap.ajax-popup-image .fancybox-close,
+.fancybox-wrap.ajax-popup-item .fancybox-close{
+    display: block;
+    width: 62px;
+    height: 65px;
+    background: transparent url(../images/close.png) 0 0 no-repeat;
+    top: -37px;
+    right: -35px;
+}
+.product_popup .g-left.image .img{
+    display: block;
+    position: relative;
+    width: 402px;
+    height: 601px;
+}
+.product_popup .g-left.image .img img{
+    display: block;
+    position: relative;
+    width: 402px;
+    height: 601px;
+}
+.product_popup .g-left.image .img .shadow{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 1px;
+    left: 1px;
+    background-color: transparent;
+    box-shadow: inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -webkit-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+    -moz-box-shadow:  inset 0px 1px 4px 1px rgba(0,0,0, 0.5);
+}
+.product_popup .g-left.image .img .zoom{
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 47px;
+    height: 48px;
+    background: transparent url(../images/zoom.png) 0 0 no-repeat;
+}
+.product_popup .shadow-for-image{
+    display: block;
+    background: transparent url(../images/shadow-for-image.png) 2px 0 no-repeat;
+    width: 400px;
+    height: 14px;
+}
+.product_popup .prop .prop_val{
+    margin: 0 0 8px 0;
+    color: #2a2927;
+    font-size: 15px;
+    font-family: 'Conv_MyriadPro-Regular';
+    box-shadow: none;
+    text-shadow: none;
+    filter: Shadow();
+}
+.product_popup .prop .prop_val.big{
+    background: transparent url(../images/area-input.png) 0 0 no-repeat;
+    height: 43px;
+    line-height: 1em;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.product_popup .price{
+    text-shadow: none;
+    filter: Shadow();
+    text-transform: none;
+    font-size: 30px;
+    line-height: 70px;
+}
+.product_popup .availability-wrap{
+    background: transparent url('../images/title-line.png') center 0px repeat-x;
+    width: 884px;
+    margin: 0 -26px 0 -26px;
+}
+.product_popup table.availability{
+    border-collapse: collapse;
+    width: 855px;
+    margin-left: 29px;
+}
+.product_popup table.availability tr.header{
+
+    /*margin: 8px 0 0 0;*/
+    height: 80px;
+    line-height: 76px;
+    font-size: 25px;
+    color: #d1d3d4;
+    font-family: 'Conv_MyriadPro-Bold';
+    text-transform: uppercase;
+    /*padding: 0 0 0 26px;*/
+}
+.product_popup table.availability th{
+    text-align: center;
+    height: 80px;
+    line-height: 76px;
+}
+.product_popup table.availability th.title{
+    text-align: left;
+
+}
+.product_popup table.availability td{
+    text-align: center;
+    font-size: 30px;
+    color: #d1d3d4;
+    font-family: 'Conv_MyriadPro-Bold';
+    border: 1px  #d1d3d4 dashed;
+    border-right: none;
+    border-top: none;
+}
+.product_popup table.availability td.name{
+    padding-left: 4px;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.product_popup table.availability td a{
+    color:  #d1d3d4;
+}
+.product_popup table.availability td.city{
+    border-bottom:none;
+    border-top:none;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.popup-shadow-window{
+    position: absolute;
+    background: transparent url(../images/popup-shadow-item.png) center 0 no-repeat;
+    width: 884px;
+    height: 14px;
+    bottom: -14px;
+    left: 0;
+
+}
+.loginButtonWrap{
+    height: 81px;
+
+}
+.loginButtonWrap a{
+
+}
+.brend-list{
+
+}
+.brend-list .brend-item{
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #81d8df;
+    color: #000000;
+    text-decoration: none;
+}
+.brend-list .brend-item .img{
+    width: 241px;
+}
+.brend-list .brend-item .preview_text{
+    width: 548px;
+    padding: 0 0 0 28px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.brend-list .brend-item p{
+    margin: 0 0 0.5em 0;
+}
